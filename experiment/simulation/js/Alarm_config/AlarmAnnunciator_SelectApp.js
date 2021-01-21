@@ -14,9 +14,9 @@ AlarmAnnunciator_SelectApp = function(){
 		    +'<label>Select Application:</label>'
 		    +'<select class="form-control" name="App" id="SelectAppID" >'
 			+'<option value="-1">Select</option>'
-			+'<option value="1">Level Control System</option>'
-			+'<option value="2">Temperature Control System</option>'
-			+'<option value="3">Pressure Control System</option>'
+			//+'<option value="1">Level Control System</option>'
+			//+'<option value="2">Temperature Control System</option>'
+			//+'<option value="3">Pressure Control System</option>'
 			+'<option value="4">Flow Control System</option>'
 			+'</select>'
 		    
