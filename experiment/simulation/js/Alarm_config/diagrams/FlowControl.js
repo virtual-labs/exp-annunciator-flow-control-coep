@@ -7,8 +7,16 @@ function FlowControl(){
     //x = 310;
 	//y = 160;
 	
-	x = 100;
-	y = 170;
+	
+	if ($(window).width() <= 1368) {
+	  x = 100;
+	y = 50;
+  }else
+  {
+   x = 100;
+	y = 200;
+  }	
+	
 
 	
 	var Ft_tank = FT_tank(x,(y-30));
